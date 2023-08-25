@@ -1,0 +1,93 @@
+
+* {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 0px;
+        margin-left: 23px;
+        padding-top: 13px;
+
+  }
+ 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+nav > ul{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+nav > ul > li > a{
+margin-left: 20px;
+font-weight: bold;
+cursor: pointer;
+}
+
+nav{
+    padding-right: 23px;
+}
+#banner{
+    padding-right: 23px;
+    padding-left: 23px;
+    position: relative;
+}
+h2{
+    position: absolute;
+    top: 130px;
+    left: 23px;
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+#arrow{
+    margin-left: 40px;
+margin-top: 15px;
+display: block;
+}
+h4{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.circle>li{
+list-style: disc;
+}
+.text{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin: auto;
+    margin-left: 23px;
+    margin-right: 23px;
+    justify-content: space-between;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    width: 300px;
+    height: 500px;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    border: 1px solid black;
+  }  
